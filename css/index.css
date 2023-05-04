@@ -1,0 +1,126 @@
+body {
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(53, 58, 65);
+}
+.boss {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/*стили для header */
+header {
+  background: linear-gradient(black, grey);
+  min-height: 100%;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  font-size: 40px;
+  padding: 20px;
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+ul .img_hdr {
+  width: 20px;
+  height: 20px;
+}
+
+li {
+  display: inline;
+}
+
+/* стили для блоков */
+.main {
+  padding: 30px;
+  flex: 1 1 auto;
+}
+
+.photo {
+  float: left;
+  margin-right: 10px;
+  max-width: 400px;
+  min-width: 350px;
+}
+
+h2 {
+  color: rgb(188, 199, 238);
+  font-style: italic;
+}
+
+.photo img {
+  max-width: 400px;
+  min-width: 350px;
+  border-radius: 50px;
+  margin: 0px;
+}
+.bio {
+  float: left;
+  max-width: 800px;
+  min-width: 450px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #c0c0c0;
+}
+.bio span {
+  color: #1f0b53;
+  font-size: 40px;
+}
+
+.project {
+  float: left;
+  max-width: 800px;
+  min-width: 450px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 40px;
+  color: grey;
+}
+
+p {
+  font-size: 25px;
+  color: #c9c7c7;
+  font-style: italic;
+}
+
+/*стили для footer */
+footer {
+  background-color: grey;
+  padding: 10px;
+
+  margin-top: 10px;
+}
+
+#social {
+  float: left;
+  width: 50px;
+}
+#rights {
+  float: right;
+  text-align: right;
+  font-size: 20px;
+  color: #c0c0c0;
+}
+
+.hobbi h2 {
+  color: rgb(188, 199, 238);
+  font-style: italic;
+  font-size: 40px;
+}
+
+.hobbi img {
+  width: 100%;
+  height: 400px;
+}
